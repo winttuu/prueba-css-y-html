@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'open sans';
+    src: url('./src/fonts/open-sans/SourceSansPro-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: url('./src/fonts/helvetica/helvetica-light-587ebe5a59211.ttf');
+}
+
+@font-face {
+    font-family: 'eurostile';
+    src: url('https://static.starcraft2.com/dist/fonts/blizzard.light.5d1ab6b16926061ac39ebf53561f2f31.woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #0b0d12;
+    color: #FFFFFFB3;
+    height: 40px;
+    font-family: 'helvetica';
+}
+
+.cta-containers {
+    display: flex;
+    text-align: center;
+    margin: 0 0 0 15em;
+}
+
+.item {
+    font-size: 16px;
+    margin: .5em;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    font-family: 'open sans';
+}
+
+.nav-two {
+    width: 1300px;
+    margin: 2.5em auto;
+    display: flex;
+    padding: 0 2.99419rems;
+    height: 57px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 60%), 0 8px 32px rgb(0 0 0 / 40%);
+    text-shadow: 0 1px 2px rgb(0 0 0 / 80%), 0 4px 8px rgb(0 0 0 / 60%);
+    color: #CCE6FF;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.cta-containers-navTwo {
+    display: flex;
+    background-color: rgba(16, 95, 175, 0.418);
+    justify-content: space-between;
+    border: 1px solid #39f;
+}
+
+.container-icon {
+    background: rgba(0,0,0,.4);
+}
+
+
+.container-icon-house {
+    box-shadow: 0 2px #66b3ff;
+    background: linear-gradient(0deg,rgba(0,128,255,.4),rgba(0,128,255,.1));
+}
+
+.container-icon-house img {
+    width: 30%;
+    height: 100%;
+}
+
+.container-icon img {
+    height: 100%;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-videoWrap {
+    max-width: 2400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hero-video {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.primer-container {
+    display: flex;
+}
+
+.item-navTwo {
+    margin: 1em;
+    font-size: 18px;
+}
+
+.item-navTwo img {
+    width: 100%;
+}
+
+.jugar-ahora {
+    border: 1px solid rgba(153,102,0,.6);
+    color: #fd9;
+    background-image: linear-gradient(180deg,rgba(0,0,0,.9),rgba(102,68,0,.9));
+}
+
+.enunciado {
+    padding-top: 2em;
+    font-family: 'eurostile';
+    font-weight: 700;
+}
+
+.description {
+    padding-top: 2em;
+}
+
+.description-subtitle {
+    color: #cce6ff;
+    font-size: 1.3em;
+}
+
+.description-title {
+    font-size: 2em;
+}
+
+.ctas {
+    padding-top: 3em;
+}
+
+.button-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+}
+
+.gameplay-section {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.gameplay-section-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    max-width: 600px;
+}
+
+
+.button-container p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.container-header {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.425);
+}
